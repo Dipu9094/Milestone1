@@ -8,6 +8,9 @@ body {
   margin: 0;
   padding: 0;
 }
+#span {
+    color: tomato;
+  }
 .navbar {
   display: flex;
   background-color: #f7ede2;
@@ -19,6 +22,8 @@ body {
   text-decoration: none;
   font-size: 30px;
 }
+
+/* header part starts from here */
 
 .head {
   width: 100%;
@@ -80,6 +85,7 @@ body {
   font-size: 50px;
 }
 
+/* Card items starts here */
 .items {
   width: 100%;
   display: flex;
@@ -109,6 +115,8 @@ body {
   margin-bottom: 80px;
 }
 
+
+/* followers starts here */
 .followers {
   width: 50%;
   margin-left: 20%;
@@ -122,6 +130,8 @@ body {
 .followers h1 {
   font-size: 30px;
 }
+/* 
+footer starts here */
 
 .foot {
   text-decoration: none;
@@ -140,6 +150,3 @@ body {
   padding: 10px;
 }
 
-#span {
-  color: tomato;
-}
