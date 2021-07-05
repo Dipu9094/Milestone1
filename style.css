@@ -25,11 +25,10 @@ body {
   display: flex;
 }
 .head-title {
-  text-align: justify;
   width: 50%;
   font-weight: 600px;
-  margin-left: 100px;
-  padding: 40px;
+  margin-left: 120px;
+  text-align: center;
 }
 .head-title h1 {
   font-size: 50px;
@@ -39,12 +38,12 @@ body {
   text-decoration: none;
   font-weight: bold;
   padding: 20px 40px;
-  background-image: linear-gradient(yellow, tomato);
+  background-image: linear-gradient(orange, rgb(107, 231, 169));
   border-radius: 20px;
 }
 .head-img {
   width: 50%;
-  margin: 80px;
+  margin: 20px;
   padding: 5px;
 }
 
@@ -79,13 +78,13 @@ body {
 }
 .description h1 {
   font-size: 50px;
-
 }
 
 .items {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -94,6 +93,10 @@ body {
   border-radius: 10px;
   width: 20%;
 }
+.shadow {
+  box-shadow: 0px 10px 10px 10px rgb(253, 125, 39);
+}
+
 #food-img {
   width: 100%;
   border-radius: 15px;
