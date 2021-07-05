@@ -1,0 +1,139 @@
+body {
+  display: wrap;
+  box-sizing: border-box;
+  font-family: "Bona Nova", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  background-color: #f7ede2;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+}
+.head-title {
+  text-align: justify;
+  width: 50%;
+  font-weight: 600px;
+  margin-left: 100px;
+  padding: 40px;
+}
+.head-title h1 {
+  font-size: 50px;
+}
+
+.linkedin {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 40px;
+  background-image: linear-gradient(yellow, tomato);
+  border-radius: 20px;
+}
+.head-img {
+  width: 50%;
+  margin: 80px;
+  padding: 5px;
+}
+
+/* About Section Start from here  */
+
+.intro {
+  display: flex;
+  width: 100%;
+  background-image: url("./images/bg1.png");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.intro-img {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.about {
+  text-align: justify;
+  width: 50%;
+  margin-top: 150px;
+  margin-right: 150px;
+  padding: 20px;
+}
+
+/*Recipie Starts from here*/
+
+.description {
+  text-align: center;
+}
+.description h1 {
+  font-size: 50px;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: 0px 10px 10px 10px rgb(166, 240, 70);
+  border-radius: 10px;
+  width: 20%;
+}
+#food-img {
+  width: 100%;
+  border-radius: 15px;
+}
+#card-title {
+  text-align: justify;
+}
+
+.recipie {
+  margin-bottom: 80px;
+}
+
+.followers {
+  width: 50%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 10px 10px 10px rgb(146, 134, 140);
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.followers h1 {
+  font-size: 30px;
+}
+
+.foot {
+  text-decoration: none;
+  background-color: #023047;
+  text-align: center;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+.foot a,
+.foot p {
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#span {
+  color: tomato;
+}
