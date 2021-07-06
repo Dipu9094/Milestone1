@@ -49,9 +49,11 @@ body {
   font-weight: 600px;
   margin-left: 120px;
   text-align: center;
+  margin-top: 40px;
 }
 .head-title h1 {
   font-size: 50px;
+  margin: 0;
 }
 
 .linkedin {
