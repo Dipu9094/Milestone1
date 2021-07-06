@@ -9,8 +9,8 @@ body {
   padding: 0;
 }
 #span {
-    color: tomato;
-  }
+  color: tomato;
+}
 .navbar {
   display: flex;
   background-color: #f7ede2;
@@ -115,7 +115,6 @@ body {
   margin-bottom: 80px;
 }
 
-
 /* followers starts here */
 .followers {
   width: 50%;
@@ -134,19 +133,17 @@ body {
 footer starts here */
 
 .foot {
-  text-decoration: none;
   background-color: #023047;
   text-align: center;
   width: 100%;
   color: white;
   padding: 5px;
-  text-decoration: none;
   margin-top: 25px;
 }
 .foot a,
 .foot p {
+  text-decoration: none;
   color: white;
   margin-top: 20px;
   padding: 10px;
 }
-
